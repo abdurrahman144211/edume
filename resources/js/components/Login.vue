@@ -1,15 +1,28 @@
 <template>
     <div class="login-form">
         <form action="#" method="post">
-            <input type="text" name="email" placeholder="Email" v-model="email">
-            <input type="password" name="password" placeholder="Password" v-model="password">
+            <input
+                    type="text"
+                    placeholder="Email"
+                    v-model="form.email"
+                    :class="{ 'is-invalid': form.errors.has('email') }">
+
+            <has-error :form="form" field="email"></has-error>
+
+            <input
+                    type="password"
+                    placeholder="Password"
+                    v-model="form.password"
+                    :class="{ 'is-invalid': form.errors.has('password') }">
+            <has-error :form="form" field="password"></has-error>
+
             <div class="button-box">
                 <div class="login-toggle-btn">
-                    <input type="checkbox" id="remember" v-model="remember">
+                    <input type="checkbox" id="remember" v-model="form.remember">
                     <label for="remember">Remember me</label>
                     <a href="#">Forgot Password?</a>
                 </div>
-                <button class="default-btn" @click="attemptLogin()">Login</button>
+                <button class="default-btn" @click.prevent="attemptLogin()" v-show="!loading">Login</button>
             </div>
         </form>
     </div>
@@ -19,14 +32,38 @@
     export default {
         data(){
             return {
-                email: '',
-                password: '',
-                remember: false
+                loading: false,
+                form: new Form({
+                    email: '',
+                    password: '',
+                    remember: false
+                })
             }
         },
 
-        attemptLogin(){
-            if
+        methods:{
+            attemptLogin()
+            {
+                if(! this.form.email || ! this.form.password || ! this.validEmail(this.form.email)) return;
+                this.loading = true;
+                this.persist();
+            },
+
+            validEmail(email)
+            {
+                var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                return re.test(String(email).toLowerCase());
+            },
+
+            persist(){
+                this.form.post('/login')
+                    .then(response => {
+                        location.reload();
+                    }).catch(error => {
+                    this.loading = false;
+                    this.form.password = '';
+                });
+            }
         }
     }
 </script>

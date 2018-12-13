@@ -197,6 +197,11 @@ textarea {
     transition: all 0.5s ease 0s;
 }
 .banner-breadcrumb ul li:hover a{color: #471A72}
+
+.is-invalid{
+    background: #ff5b5b !important;
+    color: #fff
+}
 /*************************
      Basic margin padding
 *************************/
