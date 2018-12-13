@@ -13959,6 +13959,7 @@ window.Form = __WEBPACK_IMPORTED_MODULE_0_vform__["Form"];
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key)))
 
 Vue.component('login', __webpack_require__(48));
+Vue.component('register', __webpack_require__(52));
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -47591,9 +47592,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
 
 
+    computed: {
+        validForm: function validForm() {
+            return !!(this.form.email && this.form.password && this.validEmail(this.form.email));
+        }
+    },
+
     methods: {
         attemptLogin: function attemptLogin() {
-            if (!this.form.email || !this.form.password || !this.validEmail(this.form.email)) return;
+            if (!this.validForm) return;
             this.loading = true;
             this.persist();
         },
@@ -48744,6 +48751,360 @@ var AlertSuccess_Component = normalizeComponent(
 /***/ })
 
 /******/ });
+
+/***/ }),
+/* 52 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(40)
+/* script */
+var __vue_script__ = __webpack_require__(53)
+/* template */
+var __vue_template__ = __webpack_require__(54)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/js/components/Register.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-97358ae4", Component.options)
+  } else {
+    hotAPI.reload("data-v-97358ae4", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 53 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            loading: false,
+            form: new Form({
+                name: '',
+                email: '',
+                password: '',
+                password_confirmation: ''
+            })
+        };
+    },
+
+
+    computed: {
+        validForm: function validForm() {
+            return !!(this.form.name && this.form.email && this.form.password && this.validEmail(this.form.email));
+        }
+    },
+
+    methods: {
+        attemptRegister: function attemptRegister() {
+            if (!this.validForm) return;
+            this.loading = true;
+            this.persist();
+        },
+        validEmail: function validEmail(email) {
+            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(String(email).toLowerCase());
+        },
+        persist: function persist() {
+            var _this = this;
+
+            this.form.post('/register').then(function (response) {
+                location.reload();
+            }).catch(function (error) {
+                _this.loading = false;
+                _this.form.password = '';
+            });
+        }
+    }
+});
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "login-form" }, [
+    _c(
+      "form",
+      { attrs: { action: "#", method: "post" } },
+      [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.form.name,
+              expression: "form.name"
+            }
+          ],
+          class: { "is-invalid": _vm.form.errors.has("name") },
+          attrs: { type: "text", name: "name", placeholder: "Name" },
+          domProps: { value: _vm.form.name },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.form, "name", $event.target.value)
+            }
+          }
+        }),
+        _vm._v(" "),
+        _c("has-error", { attrs: { form: _vm.form, field: "name" } }),
+        _vm._v(" "),
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.form.email,
+              expression: "form.email"
+            }
+          ],
+          class: { "is-invalid": _vm.form.errors.has("email") },
+          attrs: { type: "text", name: "email", placeholder: "Email" },
+          domProps: { value: _vm.form.email },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.form, "email", $event.target.value)
+            }
+          }
+        }),
+        _vm._v(" "),
+        _c("has-error", { attrs: { form: _vm.form, field: "email" } }),
+        _vm._v(" "),
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.form.password,
+              expression: "form.password"
+            }
+          ],
+          class: { "is-invalid": _vm.form.errors.has("password") },
+          attrs: {
+            type: "password",
+            name: "password",
+            placeholder: "Password"
+          },
+          domProps: { value: _vm.form.password },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.form, "password", $event.target.value)
+            }
+          }
+        }),
+        _vm._v(" "),
+        _c("has-error", { attrs: { form: _vm.form, field: "password" } }),
+        _vm._v(" "),
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.form.password_confirmation,
+              expression: "form.password_confirmation"
+            }
+          ],
+          class: { "is-invalid": _vm.form.errors.has("password_confirmation") },
+          attrs: {
+            type: "password",
+            name: "password_confirmation",
+            placeholder: "Password"
+          },
+          domProps: { value: _vm.form.password_confirmation },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.form, "password_confirmation", $event.target.value)
+            }
+          }
+        }),
+        _vm._v(" "),
+        _c("has-error", {
+          attrs: { form: _vm.form, field: "password_confirmation" }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "button-box" }, [
+          _c("div", { staticClass: "login-toggle-btn" }, [
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.form.remember,
+                  expression: "form.remember"
+                }
+              ],
+              attrs: { type: "checkbox", id: "remember" },
+              domProps: {
+                checked: Array.isArray(_vm.form.remember)
+                  ? _vm._i(_vm.form.remember, null) > -1
+                  : _vm.form.remember
+              },
+              on: {
+                change: function($event) {
+                  var $$a = _vm.form.remember,
+                    $$el = $event.target,
+                    $$c = $$el.checked ? true : false
+                  if (Array.isArray($$a)) {
+                    var $$v = null,
+                      $$i = _vm._i($$a, $$v)
+                    if ($$el.checked) {
+                      $$i < 0 &&
+                        _vm.$set(_vm.form, "remember", $$a.concat([$$v]))
+                    } else {
+                      $$i > -1 &&
+                        _vm.$set(
+                          _vm.form,
+                          "remember",
+                          $$a.slice(0, $$i).concat($$a.slice($$i + 1))
+                        )
+                    }
+                  } else {
+                    _vm.$set(_vm.form, "remember", $$c)
+                  }
+                }
+              }
+            }),
+            _vm._v(" "),
+            _c("label", { attrs: { for: "remember" } }, [
+              _vm._v("Remember me")
+            ]),
+            _vm._v(" "),
+            _c("a", { attrs: { href: "#" } }, [_vm._v("Forgot Password?")])
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              directives: [
+                {
+                  name: "show",
+                  rawName: "v-show",
+                  value: !_vm.loading,
+                  expression: "!loading"
+                }
+              ],
+              staticClass: "default-btn",
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  _vm.attemptRegister()
+                }
+              }
+            },
+            [_vm._v("Login")]
+          )
+        ])
+      ],
+      1
+    )
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-97358ae4", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);

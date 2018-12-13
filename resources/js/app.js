@@ -27,6 +27,7 @@ window.Form = Form;
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key)))
 
 Vue.component('login', require('./components/Login.vue'));
+Vue.component('register', require('./components/Register.vue'));
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
