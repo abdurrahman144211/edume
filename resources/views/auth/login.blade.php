@@ -29,20 +29,7 @@
                                 <h2>login</h2>
                                 <span>Please login using account detail bellow.</span>
                             </div>
-                            <div class="login-form">
-                                <form action="#" method="post">
-                                    <input type="text" name="user-name" placeholder="Username">
-                                    <input type="password" name="user-password" placeholder="Password">
-                                    <div class="button-box">
-                                        <div class="login-toggle-btn">
-                                            <input type="checkbox" id="remember">
-                                            <label for="remember">Remember me</label>
-                                            <a href="#">Forgot Password?</a>
-                                        </div>
-                                        <button type="submit" class="default-btn">Login</button>
-                                    </div>
-                                </form>
-                            </div>
+                            <login></login>
                         </div>
                     </div>
                 </div>
