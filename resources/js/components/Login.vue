@@ -58,7 +58,7 @@
             persist(){
                 this.form.post('/login')
                     .then(response => {
-                        location.reload();
+                        // location.reload();
                     }).catch(error => {
                     this.loading = false;
                     this.form.password = '';
