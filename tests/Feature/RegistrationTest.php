@@ -18,14 +18,19 @@ class RegistrationTest extends TestCase
             'password' => 'secret',
             'password_confirmation' => 'secret'
         ])->assertStatus(204);
+
+        $this->assertDatabaseHas('users', ['email' => 'test@test.com']);
     }
 
     function un_authenticated_user_must_receive_error_message_when_trying_register_with_invalid_data()
     {
         $this->postJson(route('register'), [
             'name' => 'johndoe',
+            'email' => 'test@test.com',
             'password' => 'secret',
             'password_confirmation' => ''
         ])->assertStatus(422);
+
+        $this->assertDatabaseMissing('users', ['email' => 'test@test.com']);
     }
 }
