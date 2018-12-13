@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b160dbc-dcbc-4bb9-8d57-ad847b09ac7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Login.vue" afterDir="false" />
@@ -31,7 +30,7 @@
           <entry key="env" value="1" />
           <entry key="html" value="2" />
           <entry key="js" value="6" />
-          <entry key="php" value="20" />
+          <entry key="php" value="21" />
           <entry key="sqlite" value="1" />
           <entry key="vue" value="5" />
           <entry key="xml" value="1" />
@@ -44,7 +43,7 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="2" />
           <entry key="JavaScript" value="6" />
-          <entry key="PHP" value="13" />
+          <entry key="PHP" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Vue.js" value="5" />
           <entry key="XML" value="1" />
@@ -55,9 +54,9 @@
           <entry key="css" value="70" />
           <entry key="env" value="7" />
           <entry key="js" value="61" />
-          <entry key="php" value="1726" />
+          <entry key="php" value="1756" />
           <entry key="vue" value="745" />
-          <entry key="xml" value="52" />
+          <entry key="xml" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -66,9 +65,9 @@
           <entry key="Blade" value="460" />
           <entry key="CSS" value="70" />
           <entry key="JavaScript" value="61" />
-          <entry key="PHP" value="1266" />
+          <entry key="PHP" value="1296" />
           <entry key="Vue.js" value="745" />
-          <entry key="XML" value="52" />
+          <entry key="XML" value="59" />
         </counts>
       </usages-collector>
     </session>
@@ -87,8 +86,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/Login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+            <state relative-caret-position="217">
+              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -102,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/LoginTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="961">
@@ -118,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/app/Exceptions/AuthFailedException.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="124">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -144,11 +152,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/phpunit.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="665">
+              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -182,16 +190,16 @@
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/public/design/css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Router.php" />
-        <option value="$PROJECT_DIR$/phpunit.xml" />
-        <option value="$PROJECT_DIR$/resources/js/components/Login.vue" />
         <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/app/Exceptions/AuthFailedException.php" />
         <option value="$PROJECT_DIR$/tests/Feature/LoginTest.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/Login.vue" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
       </list>
     </option>
   </component>
@@ -302,7 +310,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1780" />
     <option name="y" value="57" />
     <option name="width" value="1022" />
@@ -367,7 +375,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="AuthFailedExceptio&#9;null&#9;null&#10;handler.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/app/Exceptions/Handler.php&#10;logincont&#9;null&#9;null&#10;phpunit.xml&#9;FILE&#9;file://C:/xampp/htdocs/edume/phpunit.xml&#10;lo&#9;FILE&#9;file://C:/xampp/htdocs/edume/tests/Feature/LoginTest.php&#10;web.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/routes/web.php&#10;Logintest&#9;null&#9;null&#10;router.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/vendor/laravel/framework/src/Illuminate/Routing/Router.php&#10;router.ph&#9;FILE&#9;file://C:/xampp/htdocs/edume/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php&#10;register.blad&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/register.blade.php&#10;style.css&#9;FILE&#9;file://C:/xampp/htdocs/edume/public/design/css/style.css&#10;hasErr&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/HasError.vue&#10;vform&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/dist/vform.common.js&#10;app.js&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/js/app.js&#10;HasError&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/HasError.vue&#10;AlertError&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/AlertErrors.vue&#10;database&#9;FILE&#9;file://C:/xampp/htdocs/edume/config/database.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/edume/.env&#10;login.blade&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/login.blade.php&#10;welcome&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/welcome.blade.php&#10;appser&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="phpunit.&#9;FILE&#9;file://C:/xampp/htdocs/edume/phpunit.xml&#10;database.ph&#9;FILE&#9;file://C:/xampp/htdocs/edume/config/database.php&#10;AuthFailedExceptio&#9;null&#9;null&#10;handler.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/app/Exceptions/Handler.php&#10;logincont&#9;null&#9;null&#10;phpunit.xml&#9;FILE&#9;file://C:/xampp/htdocs/edume/phpunit.xml&#10;lo&#9;FILE&#9;file://C:/xampp/htdocs/edume/tests/Feature/LoginTest.php&#10;web.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/routes/web.php&#10;Logintest&#9;null&#9;null&#10;router.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/vendor/laravel/framework/src/Illuminate/Routing/Router.php&#10;router.ph&#9;FILE&#9;file://C:/xampp/htdocs/edume/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php&#10;register.blad&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/register.blade.php&#10;style.css&#9;FILE&#9;file://C:/xampp/htdocs/edume/public/design/css/style.css&#10;hasErr&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/HasError.vue&#10;vform&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/dist/vform.common.js&#10;app.js&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/js/app.js&#10;HasError&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/HasError.vue&#10;AlertError&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/AlertErrors.vue&#10;database&#9;FILE&#9;file://C:/xampp/htdocs/edume/config/database.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/edume/.env&#10;login.blade&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/login.blade.php&#10;welcome&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/welcome.blade.php&#10;appser&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -395,12 +403,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544705318989</updated>
-      <workItem from="1544705320386" duration="7801000" />
+      <workItem from="1544705320386" duration="8073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7801000" />
+    <option name="totallyTimeSpent" value="8073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1010" extended-state="6" />
@@ -524,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/database.sqlite">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -630,20 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/design/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -664,7 +651,7 @@
     <entry file="file://$PROJECT_DIR$/app/Exceptions/AuthFailedException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -692,6 +679,27 @@
           <folding>
             <element signature="e#33#52#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
         </state>
       </provider>
     </entry>

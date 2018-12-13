@@ -47605,7 +47605,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             var _this = this;
 
             this.form.post('/login').then(function (response) {
-                // location.reload();
+                location.reload();
             }).catch(function (error) {
                 _this.loading = false;
                 _this.form.password = '';
