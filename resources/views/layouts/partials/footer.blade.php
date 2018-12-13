@@ -107,5 +107,6 @@
 <script src="{{asset('design')}}/js/jquery.nicescroll.min.js"></script>
 <script src="{{asset('design')}}/js/plugins.js"></script>
 <script src="{{asset('design')}}/js/main.js"></script>
+<script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>
