@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b160dbc-dcbc-4bb9-8d57-ad847b09ac7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +11,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -18,7 +19,8 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -27,7 +29,7 @@
           <entry key="env" value="1" />
           <entry key="html" value="3" />
           <entry key="js" value="7" />
-          <entry key="php" value="28" />
+          <entry key="php" value="30" />
           <entry key="sqlite" value="1" />
           <entry key="vue" value="6" />
           <entry key="xml" value="1" />
@@ -40,7 +42,7 @@
           <entry key="CSS" value="3" />
           <entry key="HTML" value="3" />
           <entry key="JavaScript" value="7" />
-          <entry key="PHP" value="19" />
+          <entry key="PHP" value="21" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Vue.js" value="6" />
           <entry key="XML" value="1" />
@@ -51,7 +53,7 @@
           <entry key="css" value="79" />
           <entry key="env" value="7" />
           <entry key="js" value="74" />
-          <entry key="php" value="2539" />
+          <entry key="php" value="2849" />
           <entry key="vue" value="1382" />
           <entry key="xml" value="59" />
         </counts>
@@ -62,7 +64,7 @@
           <entry key="Blade" value="557" />
           <entry key="CSS" value="79" />
           <entry key="JavaScript" value="74" />
-          <entry key="PHP" value="1982" />
+          <entry key="PHP" value="2292" />
           <entry key="Vue.js" value="1382" />
           <entry key="XML" value="59" />
         </counts>
@@ -70,30 +72,21 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/Login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="1488">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/RegistrationTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="758">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="417">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="e#33#52#0#PHP" expanded="true" />
               </folding>
@@ -102,9 +95,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2018_12_14_083221_create_series_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="758">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
+            <state relative-caret-position="1705">
               <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
             </state>
           </provider>
@@ -113,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="1178">
               <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="36" />
               <folding>
                 <element signature="e#45#84#0#PHP" expanded="true" />
@@ -130,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/Register.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="45" column="52" lean-forward="true" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+            <state relative-caret-position="1395">
+              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -139,7 +150,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="961">
               <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
             </state>
           </provider>
@@ -148,7 +159,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
+            <state relative-caret-position="899">
               <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
             </state>
           </provider>
@@ -203,6 +214,9 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/resources/js/components/Register.vue" />
         <option value="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_12_14_083221_create_series_table.php" />
+        <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
+        <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
       </list>
     </option>
   </component>
@@ -313,7 +327,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1780" />
     <option name="y" value="57" />
     <option name="width" value="1022" />
@@ -338,6 +352,12 @@
               <item name="edume" type="b2602c69:ProjectViewProjectNode" />
               <item name="edume" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edume" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="factories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edume" type="b2602c69:ProjectViewProjectNode" />
@@ -378,7 +398,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="registrationtest&#9;FILE&#9;file://C:/xampp/htdocs/edume/tests/Feature/RegistrationTest.php&#10;router.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/vendor/laravel/framework/src/Illuminate/Routing/Router.php&#10;register.&#9;ACTION&#9;Register&#10;RegisterCont&#9;null&#9;null&#10;RegistrationT&#9;null&#9;null&#10;login.vue&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/js/components/Login.vue&#10;tyle.&#9;FILE&#9;file://C:/xampp/htdocs/edume/public/design/css/style.css&#10;regi&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/register.blade.php&#10;login.bla&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/login.blade.php&#10;register.blad&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/register.blade.php&#10;phpunit.&#9;FILE&#9;file://C:/xampp/htdocs/edume/phpunit.xml&#10;database.ph&#9;FILE&#9;file://C:/xampp/htdocs/edume/config/database.php&#10;AuthFailedExceptio&#9;null&#9;null&#10;handler.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/app/Exceptions/Handler.php&#10;logincont&#9;null&#9;null&#10;phpunit.xml&#9;FILE&#9;file://C:/xampp/htdocs/edume/phpunit.xml&#10;lo&#9;FILE&#9;file://C:/xampp/htdocs/edume/tests/Feature/LoginTest.php&#10;web.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/routes/web.php&#10;Logintest&#9;null&#9;null&#10;router.ph&#9;FILE&#9;file://C:/xampp/htdocs/edume/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php&#10;style.css&#9;FILE&#9;file://C:/xampp/htdocs/edume/public/design/css/style.css&#10;hasErr&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/HasError.vue&#10;vform&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/dist/vform.common.js&#10;app.js&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/js/app.js&#10;HasError&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/HasError.vue&#10;AlertError&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/AlertErrors.vue&#10;database&#9;FILE&#9;file://C:/xampp/htdocs/edume/config/database.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/edume/.env&#10;login.blade&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/login.blade.php&#10;welcome&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/welcome.blade.php&#10;appser&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="UserFa&#9;FILE&#9;file://C:/xampp/htdocs/edume/database/factories/UserFactory.php&#10;create_series&#9;FILE&#9;file://C:/xampp/htdocs/edume/database/migrations/2018_12_14_083221_create_series_table.php&#10;registrationtest&#9;FILE&#9;file://C:/xampp/htdocs/edume/tests/Feature/RegistrationTest.php&#10;router.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/vendor/laravel/framework/src/Illuminate/Routing/Router.php&#10;register.&#9;ACTION&#9;Register&#10;RegisterCont&#9;null&#9;null&#10;RegistrationT&#9;null&#9;null&#10;login.vue&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/js/components/Login.vue&#10;tyle.&#9;FILE&#9;file://C:/xampp/htdocs/edume/public/design/css/style.css&#10;regi&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/register.blade.php&#10;login.bla&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/login.blade.php&#10;register.blad&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/register.blade.php&#10;phpunit.&#9;FILE&#9;file://C:/xampp/htdocs/edume/phpunit.xml&#10;database.ph&#9;FILE&#9;file://C:/xampp/htdocs/edume/config/database.php&#10;AuthFailedExceptio&#9;null&#9;null&#10;handler.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/app/Exceptions/Handler.php&#10;logincont&#9;null&#9;null&#10;phpunit.xml&#9;FILE&#9;file://C:/xampp/htdocs/edume/phpunit.xml&#10;lo&#9;FILE&#9;file://C:/xampp/htdocs/edume/tests/Feature/LoginTest.php&#10;web.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/routes/web.php&#10;Logintest&#9;null&#9;null&#10;router.ph&#9;FILE&#9;file://C:/xampp/htdocs/edume/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php&#10;style.css&#9;FILE&#9;file://C:/xampp/htdocs/edume/public/design/css/style.css&#10;hasErr&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/HasError.vue&#10;vform&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/dist/vform.common.js&#10;app.js&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/js/app.js&#10;HasError&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/HasError.vue&#10;AlertError&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/AlertErrors.vue&#10;database&#9;FILE&#9;file://C:/xampp/htdocs/edume/config/database.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/edume/.env&#10;login.blade&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/login.blade.php&#10;welcome&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/welcome.blade.php&#10;appser&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -407,19 +427,20 @@
       <option name="presentableId" value="Default" />
       <updated>1544705318989</updated>
       <workItem from="1544705320386" duration="11598000" />
+      <workItem from="1544774498643" duration="847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11598000" />
+    <option name="totallyTimeSpent" value="12445000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1296" height="1010" extended-state="7" />
+    <frame x="1912" y="-8" width="1296" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19609375" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -457,18 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="17" column="21" selection-end-line="680" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -483,11 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="187" column="27" lean-forward="true" selection-start-line="139" selection-start-column="8" selection-end-line="187" selection-end-column="27" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,9 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
-          <folding>
-            <element signature="n#div#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -519,12 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
-          <folding>
-            <element signature="e#256#329#0#HTML" expanded="true" />
-            <element signature="e#1442#1515#0#HTML" expanded="true" />
-            <element signature="e#2638#2711#0#HTML" expanded="true" />
-            <element signature="e#19761#19766#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,9 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="727">
           <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="e#34#48#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,9 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="961">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#33#52#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -661,48 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="36" />
-          <folding>
-            <element signature="e#45#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/Compressed/nice-templates/eduhomehtml/eduhome/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="139" column="8" selection-start-line="139" selection-start-column="8" selection-end-line="187" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -713,24 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
           <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -741,20 +678,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1488">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1705">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="36" />
+          <folding>
+            <element signature="e#45#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/Register.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="45" column="52" lean-forward="true" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+        <state relative-caret-position="1395">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="961">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_12_14_083221_create_series_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/RegistrationTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="417">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
             <element signature="e#33#52#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
         </state>
       </provider>
     </entry>
