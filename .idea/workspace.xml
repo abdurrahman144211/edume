@@ -51,7 +51,7 @@
           <entry key="css" value="79" />
           <entry key="env" value="7" />
           <entry key="js" value="74" />
-          <entry key="php" value="2477" />
+          <entry key="php" value="2539" />
           <entry key="vue" value="1382" />
           <entry key="xml" value="59" />
         </counts>
@@ -62,7 +62,7 @@
           <entry key="Blade" value="557" />
           <entry key="CSS" value="79" />
           <entry key="JavaScript" value="74" />
-          <entry key="PHP" value="1920" />
+          <entry key="PHP" value="1982" />
           <entry key="Vue.js" value="1382" />
           <entry key="XML" value="59" />
         </counts>
@@ -92,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Feature/RegistrationTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
+            <state relative-caret-position="758">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding>
                 <element signature="e#33#52#0#PHP" expanded="true" />
               </folding>
@@ -313,7 +313,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1780" />
     <option name="y" value="57" />
     <option name="width" value="1022" />
@@ -406,15 +406,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544705318989</updated>
-      <workItem from="1544705320386" duration="10583000" />
+      <workItem from="1544705320386" duration="11598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10583000" />
+    <option name="totallyTimeSpent" value="11598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1296" height="1010" extended-state="6" />
+    <frame x="1912" y="-8" width="1296" height="1010" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -750,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/RegistrationTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
+        <state relative-caret-position="758">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
             <element signature="e#33#52#0#PHP" expanded="true" />
           </folding>

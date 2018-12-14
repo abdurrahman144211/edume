@@ -32,5 +32,7 @@ class RegistrationTest extends TestCase
         ])->assertStatus(422);
 
         $this->assertDatabaseMissing('users', ['email' => 'test@test.com']);
+
+        
     }
 }
