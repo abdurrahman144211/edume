@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b160dbc-dcbc-4bb9-8d57-ad847b09ac7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/series/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +29,9 @@
         <counts>
           <entry key="css" value="3" />
           <entry key="env" value="1" />
-          <entry key="html" value="3" />
+          <entry key="html" value="5" />
           <entry key="js" value="7" />
-          <entry key="php" value="30" />
+          <entry key="php" value="36" />
           <entry key="sqlite" value="1" />
           <entry key="vue" value="6" />
           <entry key="xml" value="1" />
@@ -38,11 +40,11 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
-          <entry key="Blade" value="9" />
+          <entry key="Blade" value="13" />
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="5" />
           <entry key="JavaScript" value="7" />
-          <entry key="PHP" value="21" />
+          <entry key="PHP" value="23" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Vue.js" value="6" />
           <entry key="XML" value="1" />
@@ -53,7 +55,7 @@
           <entry key="css" value="79" />
           <entry key="env" value="7" />
           <entry key="js" value="74" />
-          <entry key="php" value="2849" />
+          <entry key="php" value="3471" />
           <entry key="vue" value="1382" />
           <entry key="xml" value="59" />
         </counts>
@@ -61,10 +63,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="7" />
-          <entry key="Blade" value="557" />
+          <entry key="Blade" value="932" />
           <entry key="CSS" value="79" />
           <entry key="JavaScript" value="74" />
-          <entry key="PHP" value="2292" />
+          <entry key="PHP" value="2539" />
           <entry key="Vue.js" value="1382" />
           <entry key="XML" value="59" />
         </counts>
@@ -73,15 +75,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/Login.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1488">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/RegistrationTest.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,55 +96,78 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="758">
-              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="510">
+              <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1705">
-              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            <state relative-caret-position="155">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SeriesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="217">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
-                <element signature="e#45#84#0#PHP" expanded="true" />
+                <element signature="e#40#55#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$USER_HOME$/Downloads/Compressed/nice-templates/eduhomehtml/eduhome/course.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="320" column="27" lean-forward="true" selection-start-line="156" selection-start-column="8" selection-end-line="320" selection-end-column="27" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/Register.vue">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/series/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+            <state relative-caret-position="758">
+              <caret line="67" column="39" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="67" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+        <entry file="file://$USER_HOME$/Downloads/Compressed/nice-templates/eduhomehtml/eduhome/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="961">
-              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+            <state relative-caret-position="129">
+              <caret line="28" column="84" lean-forward="true" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="85" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -217,6 +233,12 @@
         <option value="$PROJECT_DIR$/database/migrations/2018_12_14_083221_create_series_table.php" />
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
         <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/series.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
+        <option value="$USER_HOME$/Downloads/Compressed/nice-templates/eduhomehtml/eduhome/course.html" />
+        <option value="$PROJECT_DIR$/resources/views/admin/series/index.blade.php" />
       </list>
     </option>
   </component>
@@ -388,6 +410,13 @@
               <item name="edume" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edume" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -398,7 +427,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="UserFa&#9;FILE&#9;file://C:/xampp/htdocs/edume/database/factories/UserFactory.php&#10;create_series&#9;FILE&#9;file://C:/xampp/htdocs/edume/database/migrations/2018_12_14_083221_create_series_table.php&#10;registrationtest&#9;FILE&#9;file://C:/xampp/htdocs/edume/tests/Feature/RegistrationTest.php&#10;router.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/vendor/laravel/framework/src/Illuminate/Routing/Router.php&#10;register.&#9;ACTION&#9;Register&#10;RegisterCont&#9;null&#9;null&#10;RegistrationT&#9;null&#9;null&#10;login.vue&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/js/components/Login.vue&#10;tyle.&#9;FILE&#9;file://C:/xampp/htdocs/edume/public/design/css/style.css&#10;regi&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/register.blade.php&#10;login.bla&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/login.blade.php&#10;register.blad&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/register.blade.php&#10;phpunit.&#9;FILE&#9;file://C:/xampp/htdocs/edume/phpunit.xml&#10;database.ph&#9;FILE&#9;file://C:/xampp/htdocs/edume/config/database.php&#10;AuthFailedExceptio&#9;null&#9;null&#10;handler.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/app/Exceptions/Handler.php&#10;logincont&#9;null&#9;null&#10;phpunit.xml&#9;FILE&#9;file://C:/xampp/htdocs/edume/phpunit.xml&#10;lo&#9;FILE&#9;file://C:/xampp/htdocs/edume/tests/Feature/LoginTest.php&#10;web.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/routes/web.php&#10;Logintest&#9;null&#9;null&#10;router.ph&#9;FILE&#9;file://C:/xampp/htdocs/edume/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php&#10;style.css&#9;FILE&#9;file://C:/xampp/htdocs/edume/public/design/css/style.css&#10;hasErr&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/HasError.vue&#10;vform&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/dist/vform.common.js&#10;app.js&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/js/app.js&#10;HasError&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/HasError.vue&#10;AlertError&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/AlertErrors.vue&#10;database&#9;FILE&#9;file://C:/xampp/htdocs/edume/config/database.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/edume/.env&#10;login.blade&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/login.blade.php&#10;welcome&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/welcome.blade.php&#10;appser&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="nav.b&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/layouts/partials/nav.blade.php&#10;Seriescontro&#9;null&#9;null&#10;web.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/routes/web.php&#10;UserFa&#9;FILE&#9;file://C:/xampp/htdocs/edume/database/factories/UserFactory.php&#10;create_series&#9;FILE&#9;file://C:/xampp/htdocs/edume/database/migrations/2018_12_14_083221_create_series_table.php&#10;registrationtest&#9;FILE&#9;file://C:/xampp/htdocs/edume/tests/Feature/RegistrationTest.php&#10;router.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/vendor/laravel/framework/src/Illuminate/Routing/Router.php&#10;register.&#9;ACTION&#9;Register&#10;RegisterCont&#9;null&#9;null&#10;RegistrationT&#9;null&#9;null&#10;login.vue&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/js/components/Login.vue&#10;tyle.&#9;FILE&#9;file://C:/xampp/htdocs/edume/public/design/css/style.css&#10;regi&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/register.blade.php&#10;login.bla&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/login.blade.php&#10;register.blad&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/register.blade.php&#10;phpunit.&#9;FILE&#9;file://C:/xampp/htdocs/edume/phpunit.xml&#10;database.ph&#9;FILE&#9;file://C:/xampp/htdocs/edume/config/database.php&#10;AuthFailedExceptio&#9;null&#9;null&#10;handler.php&#9;FILE&#9;file://C:/xampp/htdocs/edume/app/Exceptions/Handler.php&#10;logincont&#9;null&#9;null&#10;phpunit.xml&#9;FILE&#9;file://C:/xampp/htdocs/edume/phpunit.xml&#10;lo&#9;FILE&#9;file://C:/xampp/htdocs/edume/tests/Feature/LoginTest.php&#10;Logintest&#9;null&#9;null&#10;router.ph&#9;FILE&#9;file://C:/xampp/htdocs/edume/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php&#10;style.css&#9;FILE&#9;file://C:/xampp/htdocs/edume/public/design/css/style.css&#10;hasErr&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/HasError.vue&#10;vform&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/dist/vform.common.js&#10;app.js&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/js/app.js&#10;HasError&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/HasError.vue&#10;AlertError&#9;FILE&#9;file://C:/xampp/htdocs/edume/node_modules/vform/src/components/AlertErrors.vue&#10;database&#9;FILE&#9;file://C:/xampp/htdocs/edume/config/database.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/edume/.env&#10;login.blade&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/auth/login.blade.php&#10;welcome&#9;FILE&#9;file://C:/xampp/htdocs/edume/resources/views/welcome.blade.php&#10;appser&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -427,17 +456,39 @@
       <option name="presentableId" value="Default" />
       <updated>1544705318989</updated>
       <workItem from="1544705320386" duration="11598000" />
-      <workItem from="1544774498643" duration="847000" />
+      <workItem from="1544774498643" duration="2072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12445000" />
+    <option name="totallyTimeSpent" value="13670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.19609375" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19609375" />
@@ -458,7 +509,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -478,13 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="17" column="21" selection-end-line="680" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -591,13 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -752,8 +789,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/series.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1164">
+          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Compressed/nice-templates/eduhomehtml/eduhome/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="28" column="84" lean-forward="true" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="85" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Compressed/nice-templates/eduhomehtml/eduhome/course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="320" column="27" lean-forward="true" selection-start-line="156" selection-start-column="8" selection-end-line="320" selection-end-column="27" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SeriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/series/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="758">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <caret line="67" column="39" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="67" selection-end-column="39" />
         </state>
       </provider>
     </entry>
